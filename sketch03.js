@@ -24,19 +24,13 @@ function Walker(){
 	}
 
 	this.step=function(){
-		var choice =floor(random(4)); //random numer 1-4 - floor rounds down i.e takes off the decimal points 
-		if (choice===0){
-			this.x++; //move right
-		}
-		else if (choice===1){
-			this.x--; //move left 
-		}
-		else if (choice===2){
-			this.y++; //move up 
-		}
-		else{
-			this.y--; //move down 
-		}
+		var stepx=floor(random(-1,2)); //this produces nine outcomes including not moving 
+		var stepy=floor(random(-1,2)); // therefor there is a 1/9 chance of the walker stepping in any given direction
+
+		this.x=this.x+stepx; 
+		this.y=this.y+stepy;
+	
+		
 		constrain(this.x,0,width); //keeps the x on the canvas between two values
 		constrain(this.y,0,height);//keeps the y on the canvas between two values
 	}
