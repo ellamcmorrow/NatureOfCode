@@ -10,7 +10,7 @@ function setup(){
 
 //loop function called each frame eg. 30 frames per sec = 30 calls
 function draw(){
-	walker.render();
+	walker.render(); //drawing function written in walker class
 	walker.step();
 }
 //making the walker class 
