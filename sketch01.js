@@ -1,5 +1,3 @@
-
-
 //defining the vars
 var myCar;
 
