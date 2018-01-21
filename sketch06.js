@@ -22,7 +22,7 @@ function Walker(){
 		stroke(0);
 		point(this.x,this.y); 
 	}
-//a different way of implementing 4 outcomes
+//a different way of implementing 4 outcomes.
 	this.step=function(){
 		var choice =floor(random(4)); //random numer 1-4 - floor rounds down i.e takes off the decimal points 
 		var r= random(1); //random foating no. between 0 and 1 
