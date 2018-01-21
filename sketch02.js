@@ -2,7 +2,7 @@ var walker; //define variables first
 
 //static function called once when page loads
 function setup(){
-	createCanvas(320,640);
+	createCanvas(320,640); //canvas width and height
 	background(127);
 	walker= new Walker(); //create new walker object 
 	
