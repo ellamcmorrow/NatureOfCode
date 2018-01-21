@@ -15,11 +15,11 @@ function draw(){
 }
 //making the walker class 
 function Walker(){
-	this.x= width/2;
+	this.x= width/2; 
 	this.y= height/2;
 
 	this.render=function(){
-		stroke(0);
+		stroke(0); //black stroke
 		point(this.x,this.y); 
 	}
 
