@@ -11,7 +11,7 @@ function draw(){
 
 	loadPixels(); //load pixels i.e i wanna work with pixels
 	for(y =0; y<height; y++){ //creating a nexted for loop to manipulate the x and y pixels
-	for(x =0; x<width; x++){
+	for(x =0; x<width; x++){ //looping through each x,y value
 
 			var index= (x+y*width)*4; //formula to manipulat x,y's
 	/*R*/	pixels[index+0]=y/2; //change each pixel array value
@@ -21,7 +21,6 @@ function draw(){
 	}
 
 }
-
 	updatePixels(); //apply to canvas
 
 }
