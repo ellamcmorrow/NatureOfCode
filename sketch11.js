@@ -15,7 +15,7 @@ function draw(){
 
 			var index= (x+y*width)*4; //formula to manipulat x,y's
 	/*R*/	pixels[index+0]=y/2; //change each pixel array value
-	/*G*/	pixels[index+1]=random(255);
+	/*G*/	pixels[index+1]=255;
 	/*B*/	pixels[index+2]=x/2;
 	/*A*/	pixels[index+3]=255;
 	}

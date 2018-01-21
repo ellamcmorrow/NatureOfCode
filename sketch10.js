@@ -6,7 +6,7 @@ function setup(){
 	createCanvas(1200,1000);
 	
 	noOfWalkers=10 ; //create new walker object 
-	walkers=[];
+	walkers=[];//empty walkers array
 	for (var i=0; i<noOfWalkers;i++){
 		walkers[i] = new Walker(); 
 
