@@ -27,7 +27,7 @@ function Walker(){
 		noStroke();
 		fill(255,45,0,50);//rgb 50% opacity
 		ellipse(this.x,500,40,40);
-		fill(200,180,80);
+		fill(200,180,80); //fill the ellipse
 		
 	}
 
