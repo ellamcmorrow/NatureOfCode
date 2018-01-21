@@ -19,7 +19,7 @@ function draw(){
 	fill(0,10); //15% opacity
 	rect(0,0,width,height);
 	for (var i=0; i<noOfWalkers;i++){ //make an array of walkers
-		walkers[i].step(); //the index depend on the position of the ellipses
+		walkers[i].step(); //the index depends on the positions of the ellipse
 		walkers[i].render();
 	}
 }

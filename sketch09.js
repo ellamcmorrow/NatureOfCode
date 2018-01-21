@@ -32,7 +32,7 @@ function Walker(){
 	}
 
 	this.step=function(){
-		this.x=map(noise(this.xOff,0,1,0,width)); //get noise value for current time --> between 0 and 1  map it between what we want 0 and the width 
+		this.x=map(noise(this.xOff),0,1,0,width); //get noise value for current time --> between 0 and 1  map it between what we want 0 and the width 
 		this.xOff+=0.005;
 
 		}
