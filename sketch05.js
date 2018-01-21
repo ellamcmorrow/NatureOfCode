@@ -27,7 +27,7 @@ function Walker(){
 		//populate array with values
 		probArray[0]=1; //more likely for 1 & 3 to be chosen - probability higher
 		probArray[1]=1;
-		probArray[2]=2;
+		probArray[2]=2; 
 		probArray[3]=3; //40% chance of choosing  3/1 
 	    probArray[4]=3; //2/5 = 0.4 =40%
 
