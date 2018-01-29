@@ -8,9 +8,9 @@ function setup(){
 }
 //loop function called each frame eg. 30 frames per sec = 30 calls
 function draw(){
-
+  //only manipulating the x direction
 	var xloc=randomGaussian();  // --> normal distribution
-	var sd=60; //standard deviation
+	var sd=60; // close to one standard deviation
 	var mean=width/2; // average 
 	xloc = (xloc * sd) + mean;
 
