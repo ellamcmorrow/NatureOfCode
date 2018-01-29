@@ -8,10 +8,10 @@ function setup(){
 function draw(){
 //spread circles out in two directions
 	var xloc=randomGaussian();  // --> normal distribution
-	var yloc=randomGaussian();
+	var yloc=randomGaussian(); 
 
 	var xsd=100; //standard deviation
-	var ysd=40;	//spread out all across the page
+	var ysd=40;	//maniputlation the y value - more dispersion
 
 	var xMean=width/2; // average x val
 	var yMean=width/2; // average y val
@@ -22,9 +22,9 @@ function draw(){
 
 	var randomColour=240;
 
-	this.fill(randomColour,70);
+	this.fill(randomColour,70); 
 	this.noStroke();
-	this.ellipse(xloc,yloc,16,16);  //draw circle of normal distribution
+	this.ellipse(xloc,yloc,16,16); 
 
 
 }
