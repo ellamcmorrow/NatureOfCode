@@ -36,7 +36,7 @@ function Walker(){
 			this.y++; //move up 
 		}
 		else{
-			this.y--; //move down 
+			this.y--; //move down   
 		}
 		constrain(this.x,0,width); //keeps the x on the canvas between two values
 		constrain(this.y,0,height);//keeps the y on the canvas between two values
