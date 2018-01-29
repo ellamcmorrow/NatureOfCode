@@ -1,3 +1,4 @@
+//probability and non uniform distribution
 var walker; //define variables first
 
 //static function called once when page loads
