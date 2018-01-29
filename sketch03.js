@@ -13,7 +13,7 @@ function draw(){
 	walker.render(); //drawing function written in walker class
 	walker.step();
 }
-//making the walker class 
+//making the walker class
 function Walker(){
 	this.x= width/2; 
 	this.y= height/2;
