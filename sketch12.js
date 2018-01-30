@@ -16,10 +16,10 @@ function draw(){
 			var index= (x+y*width)*4; //formula to manipulate x,y's
 			var brightness=random(255);
 
-	/*R*/	pixels[index+0]=brightness; //change each pixel array value
-	/*G*/	pixels[index+1]=brightness;
-	/*B*/	pixels[index+2]=brightness;
-	/*A*/	pixels[index+3]=255; 
+	/*R*/	pixels[index+0]=y/2; //change each pixel array value
+	/*G*/	pixels[index+1]=brightness/2;
+	/*B*/	pixels[index+2]=brightness;//brightness;
+	/*A*/	pixels[index+3]=x; 
 }
 //fuzzyness created
 }
