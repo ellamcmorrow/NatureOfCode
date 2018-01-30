@@ -5,7 +5,7 @@ function setup(){
 	pixelDensity(1); //necessary to fix any HD retina display issues 
 }
 
-//loop function called each frame eg. 30 frames per sec = 30 calls
+//loop function called each frame ie. 30 frames per sec = 30 calls
 function draw(){
 
 
