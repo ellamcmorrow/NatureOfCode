@@ -6,7 +6,7 @@ function setup(){
 	createCanvas(320,640);
 	background(127);
 	walker= new Walker(); //create new walker object 
-    console.log(walker);
+   
 }
 //loop function called each frame eg. 30 frames per sec = 30 calls
 function draw(){
@@ -37,5 +37,5 @@ function Walker(){
 	
 		constrain(this.x,0,width-1); //keeps the x on the canvas between two values
 		constrain(this.y,0,height-1);//keeps the y on the canvas between two values
-	};
+	}
 }
