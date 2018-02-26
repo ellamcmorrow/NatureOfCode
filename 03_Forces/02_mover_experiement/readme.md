@@ -1,5 +1,5 @@
 # 02_Drag_force_liquid
-**Liquid class**
+</br>**Liquid class**
 Friction occurs when a body passes through gas or liquid. <br/>
 Increased difficulty for the object to move through liquid because there is a greater amount of friction.<br/>
 Created a liquid object with rectangle parameters and a variable for the coefficient of drag<br/>
@@ -28,7 +28,7 @@ Liquid.prototype.calculateDrag = function(m) {
 };
 
 ```
-<br/><br/>
+<br/>
 **Mover Class**<br/>
 The balls now only bounces off the bottom of the window so we are only effecting the y location<br/>
 The check edges function creates a slower negative velocity to dampen the effect of the balls bouncing.<br/>

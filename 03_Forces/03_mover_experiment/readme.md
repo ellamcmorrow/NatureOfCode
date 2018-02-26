@@ -1,10 +1,10 @@
 # 03_mover_experiment
- 
-In this example we create multiple movers in multiple liquids.</br> 
+
+</br>In this example we create multiple movers in multiple liquids.</br> 
 We added rgbo to the end of each mover and liquid so we could manipulate the fill each specific object.</br>
 
 **Liquid Class**
-The contains method checks the location of the mover.
+This contains methods to check the location of the mover.
 The calculateDrag method checks how much force to add depending on the mass of the object.<br/>
 It uses one of Newtons formulas to calculate the magnitude.</br></br>
 

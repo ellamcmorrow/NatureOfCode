@@ -1,5 +1,5 @@
 //writing a class
-var Mover =function(x,y,vx,vy,ax,ay,m){ //passing mass in as a parameter 
+var Mover =function(x,y,vx,vy,ax,ay,m){ //passing in as a parameter 
 
   this.location=createVector(x,y);
   this.velocity=createVector(vx,vy);
