@@ -3,7 +3,7 @@ var liquids=[];
 
 function setup(){
 	createCanvas(800,800);
-	background(105,105,105);
+
 
 //var Liquid=function(x,y,w,h,c,r,g,b,o)
 liquids[0] = new Liquid(0,500,800,400,0.5,255,179,71);

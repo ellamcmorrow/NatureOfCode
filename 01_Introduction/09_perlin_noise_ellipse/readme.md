@@ -1,20 +1,16 @@
-# 09_Perlin_noise_random_ellipse_x 
-Perlin noise is used so that objects appear on the screen in a more natural and organic way.</br>
-
-Here we are only manipulating the x value.</br>
-This.x is equal to the ellipses x in the render function. </br>
-
+# 09_Perlin_noise
+</br>
+**Perlin noise** is used so that objects appear on the screen in a more natural and organic way.</br>
+It can be used to created things such as clouds, landscapes, and patterned textures like marble.</br>
+Perlin noise always returns a value between 0 and 1.</br>
+**noise()** is an inbuilt function in p5.js.</br>
+The **map()** function takes five arguments. First up is the value we want to map. Then we have to give it the value’s current range (minimum and maximum), followed by our desired range.</br>
+</br>
+In this example we are only manipulating the x value.</br>
 xOff is equal to the offset of a random moment in time.</br>
-Here we choose a random moment in time between 0-1000 miliseconds.</br>
-
-In the step function we define what this.x is equal to. </br>
-We use the inbuilt map and noise functions.</br>
-
-Noise is random value between 0 and 1. It maps a moment in time to the number.</br>
-Map changes the range values you have and to different set of range values.</br>
-
-
-xOff increments slowly +0.05 giving a smoothing effect. </br>
+We choose a random moment in time between 0-1000 miliseconds.</br>
+The step function maps a moment in time to the x value.</br>
+xOff increments slowly by +0.05 giving a smoothing effect. </br>
 If you increment it by too much it won’t be smoothe.</br>
 
 ```js

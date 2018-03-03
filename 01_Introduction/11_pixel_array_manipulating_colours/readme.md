@@ -1,6 +1,7 @@
 # 11_Pixel_Array_Maipulating_Colours
-We need to use pixelDensity(1); in set up to fix HD retina display issues.</br>
-When we want to work with pixels we use the loadPixels() inbuilt function in draw. </br>
+</br>
+We need to use pixelDensity(1) in setup functionto fix HD retina display issues.</br>
+When we want to work with pixels we use the loadPixels()in the draw function. </br>
 To apply it to the canvas we use updatePixels();</br>
 The canvas is made up of pixels. </br>
 We can manipulate these pixels using the pixel array.</br>
@@ -8,8 +9,9 @@ We create a nested for loop to loop through the x,y values.</br>
 Within this for loop we want to manipulate the colours on the canvas. </br>
 We do this by creating a variable called index and equating it to the formula.</br>
 This formula targets a pixel.</br> 
-Each pixel is made up of an array [R,G,B,A]. </br>
-We equate each pixel array index to one of these values.</br> These allow us to manipulate the colour on the screen.</br>
+Each pixel is made up of an array [R,G,B,A] values. </br>
+We equate each pixel array index to one of these values.</br> 
+These allow us to manipulate the colour on the screen.</br>
 
 ```js
 function draw(){

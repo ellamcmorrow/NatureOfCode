@@ -1,7 +1,7 @@
 # 08_Random_Gaussian_xLocation_yLocation
-
+</br>
 Manipulating both the x and y values using randomGaussian. </br>
-Circles will now appear up and down the screen not just left and right.</br>
+Circles will now be distributed up and down the screen not just left and right.</br>
 These circles are more spread out because the standard deviation is equal to 100 i.e close to three standard deviations.
 
 ```
@@ -19,8 +19,6 @@ function draw(){
 
 	xloc = (xloc * xsd) + xMean;
 	yloc = (yloc * ysd) + yMean;
-
-	
 
 }
 
