@@ -14,6 +14,7 @@ We equate each pixel array index to one of these values.</br>
 These allow us to manipulate the colour on the screen.</br>
 
 ```js
+
 function draw(){
 
 

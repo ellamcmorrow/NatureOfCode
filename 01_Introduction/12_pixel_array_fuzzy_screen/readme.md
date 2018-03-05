@@ -2,7 +2,7 @@
 </br>
 In the nested for loop we create a variable called bright. </br>
 This variable equates to a random number between 0 and 255. </br>
-By making one of the index’s in our pixel array equal to this random number it creates a fuzzy effect.</br>Because it’s refreshing a different number every time the frame loads.</br>
+By making one of the index’s in our pixel array equal to this random number it creates a fuzzy effect.</br>Because it’s refreshing a different number every time the frame loads.</br></br>
 
 ```js
 	loadPixels(); //load pixels i.e i wanna work with pixels
