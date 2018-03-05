@@ -15,4 +15,5 @@ The bright variable is made equal to the index in the pixel array.
 </br>
 ```js
 	pixels[index+1]=bright;
-```
+
+</br>

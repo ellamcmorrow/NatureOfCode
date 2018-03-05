@@ -24,3 +24,4 @@ By making one of the index’s in our pixel array equal to this random number it
 }
 
 ```
+</br>
