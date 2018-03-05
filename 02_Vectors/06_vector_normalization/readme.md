@@ -11,3 +11,4 @@ vectorLine.normalize(); //keeps it standard, turns into a unit vector
 vectorLine.mult(50); //constant length of 50 = 1unit
 
 ```
+</br>

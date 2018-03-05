@@ -20,8 +20,9 @@ this.update=function(){
  ```
 
 </br>We implement two new methods:</br>
-Update() which updates the screen every frame. Thus every time the acceleration is changed it makes the object move. </br>
-The checkEdges() function ensures the object doesn't move off the screen.</br>
+The *Update()* method which updates the screen every frame. Thus every time the acceleration is changed it makes the object move. </br>
+The *checkEdges()* method which ensures the object doesn't move off the screen.</br>
 A random number between 0 and 1 is chosen for the acceleration vector. </br>
-If the number is too large the ball is drawn too far up or down the screen because acceleration effects the velocity.</br>
-This gives a better bouncing effect.
+If the number is too large the ball is drawn too far up or down the screen because </br>
+acceleration effects the velocity.</br>
+This gives a better bouncing effect.</br>

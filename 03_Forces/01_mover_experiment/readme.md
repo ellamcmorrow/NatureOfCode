@@ -30,6 +30,6 @@ this.applyForce=function(force){ //apply force as a parameter
 
 **Sketch Class**
 In the sketch class we create a new object specifying the parameters. <br/>
-We then call the functions we created in the mover class. <br/>
+We then call the functions we created in the mover class. <br/></br>
 
 

@@ -7,7 +7,7 @@ With nine possible steps, it’s a 1 in 9 chance.</br>
 In this example the step function produces nine outcomes.</br>
 It randomly floors the numbers between (-1,2) for the x,y values this gives 8 outcomes. </br>
 The ninth comes from not moving.</br>
- The x,y values are then incremented by these values making the walkers step more random.</br>
+ The x,y values are then incremented by these values making the walkers step more random.</br></br>
 
 ```js
 this.step=function(){
@@ -19,3 +19,4 @@ this.step=function(){
 
 
 
+</br>

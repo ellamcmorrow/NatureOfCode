@@ -11,7 +11,7 @@ We do this by creating a variable called index and equating it to the formula.</
 This formula targets a pixel.</br> 
 Each pixel is made up of an array [R,G,B,A] values. </br>
 We equate each pixel array index to one of these values.</br> 
-These allow us to manipulate the colour on the screen.</br>
+These allow us to manipulate the colour on the screen.</br></br>
 
 ```js
 

@@ -13,7 +13,7 @@ The standard deviation can be calculated as the square root of the average varia
 Ellipse drawn in a line on the x axis.</br>
 Spread out by the x value using randomGaussian.</br> 
 Most concentrated ellipses in the centre because of the standard deviation - 60 this is close to one standard deviation thats why it is concentrated.</br>
-As it moves away from centre they are more transparent.</br>
+As it moves away from centre they are more transparent.</br></br>
 
 ```js
 function draw(){

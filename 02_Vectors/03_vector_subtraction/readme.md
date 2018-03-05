@@ -12,4 +12,4 @@ var vectorLine=mouse.sub(centre);
 In order to get the distance between these points we have to subtract the vectors from eachother.</br>
 The position of the mouse holds x,y points, these points create a vector.</br>
 minus the centre vector.</br>
-We then draw a line so we can see the distance changing depending on where the mouse is on the canvas.
+We then draw a line so we can see the distance changing depending on where the mouse is on the canvas.</br>

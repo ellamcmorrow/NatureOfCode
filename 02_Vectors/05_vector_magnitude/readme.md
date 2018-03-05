@@ -15,3 +15,4 @@ var m=vectorLine.mag(); //inbuilt mag function
 rect(0,0,m,10); //this rect indicated the length of the vector created in vectorLine
 
 ```
+</br>

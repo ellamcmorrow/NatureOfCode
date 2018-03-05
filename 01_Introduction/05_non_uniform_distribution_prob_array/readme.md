@@ -10,7 +10,7 @@ Some numbers are repeated which increases their porbability of being chosen.</br
 There is a 2/4 chance either will be chosen which is equal to 40%.</br>
 The index variable chooses a random number from the array and floors it.</br>
 A random position in the probArray is chosen and held in the index variable.</br>
-This number is then passed into the variable 'r'.</br>
+This number is then passed into the variable 'r'.</br></br>
 
 ```js
 		probArray[0]=1; 
@@ -21,3 +21,4 @@ This number is then passed into the variable 'r'.</br>
 
 ```
 
+</br>

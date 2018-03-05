@@ -11,7 +11,8 @@ We create an empty acceleration vector because it will be  created in a static m
 	this.acceleration.setMag(0.3);
 	```
 
-A static function is created for the acceleration method. Here  the two vectors mouse and position are kept intact. </br>
+A static function is created for acceleration.</br>
+Here  the two vectors mouse and position are kept intact. </br>
 The inbuilt p5 vector function allows us to create a new vector.</br>
-
+</br>
  

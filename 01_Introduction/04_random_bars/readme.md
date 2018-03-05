@@ -30,3 +30,4 @@ Over time the random function would produce a pattern so it is not truley random
 They are created by a mathematical equation.</br>
 It's known as pseudo random numbers. 
 
+</br>

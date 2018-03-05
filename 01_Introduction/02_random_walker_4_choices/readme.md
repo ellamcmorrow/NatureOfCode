@@ -6,7 +6,7 @@ Each time the step function is called on this object it selects a random floatin
 and floors it making it an integer.<br>
 This produces four possible outcomes.</br>
 The inbuilt constrain function makes sure the object does not go off the page.</br>
-Every time the draw function is called it will update their position.</br>
+Every time the draw function is called it will update their position.</br></br>
 
 ```js
 	this.step=function(){
@@ -26,4 +26,4 @@ Every time the draw function is called it will update their position.</br>
 
 ```
 
-
+</br>

@@ -9,7 +9,7 @@ A random floating number is chosen between 0 and 1.</br>
 If its less than 0.4 move right,so it has a 40 % chance of being chosen. </br>
 20% chance of moving up (0.4-0.6)</br>
 20% chance of moving up (0.6-0.8)</br>
-20% chance of moving down . (0.8-1)</br>
+20% chance of moving down . (0.8-1)</br></br>
 
 ```
 this.step=function(){

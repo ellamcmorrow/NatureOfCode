@@ -5,8 +5,7 @@ The update method is where we apply VALV.<br/>
 
 *Applying Force*<br/>
 We create an applyForce method to apply the force to our object.<br/>
-We create a static function and user the inbuilt p5.Vector function to divide force times mass.The static method creates a new method with the answer.<br/>
-
+We create a static function and user the inbuilt p5.Vector function to divide force times mass.<br/>
 The static function causes all the object to fall at the same time. <br/><br/>
 ```js 
 this.applyForce=function(force){ 
@@ -36,6 +35,9 @@ this.acceleration.mult(0);
 ```  
 
 A=F/M<br/>
-we scale by mass  in our gravity variable and then divide in our applyForce function(above). This cancels out <br/>mass- i.e gravity is not effected by mass and all the balls will fall at the same time reguardless<br/> of their mass.<br/>
+we scale by mass in our gravity variable and then divide in our applyForce function(above). This cancels out <br/>mass to simulate **gravity** which is not effected by mass.
+ All the balls will now fall at the same time reguardless of their mass.<br/>
+
 ```js
 var gravity=createVector(0,0.1 * movers[i].mass);```
+</br>
