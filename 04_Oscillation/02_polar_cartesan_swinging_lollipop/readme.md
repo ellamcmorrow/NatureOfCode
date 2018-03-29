@@ -1,7 +1,7 @@
 # 02_polar_coords_trig
 </br>
 </br>For oscillating motion we need to know about trignometry.</br>
-** SOH CAH TOA ** is important.</br>
+**SOH CAH TOA** is important.</br>
 We use radius for the side and thetha for the angle.</br>
 So we can rotate by this angle and the radius is equal to the length of one of the triangles sides.</br>
 In order to draw this we need to use cartesian coordinates.</br>

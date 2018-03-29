@@ -8,7 +8,7 @@ SOH->hyp equals the length, x equals the opp.</br>
 CAH->adj equals y divided by the length(hyp).</br>
 We then put this into a formula.</br>
 This is similar to the polar to cartesian example.</br>
-* throwback * </br>
+*throwback* </br>
 
 ```js
   var x = r * cos(theta);
