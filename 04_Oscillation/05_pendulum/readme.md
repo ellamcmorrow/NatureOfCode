@@ -8,13 +8,14 @@ SOH->hyp equals the length, x equals the opp.</br>
 CAH->adj equals y divided by the length(hyp).</br>
 We then put this into a formula.</br>
 This is similar to the polar to cartesian example.</br>
-*throwback*
+* throwback * </br>
+
 ```js
   var x = r * cos(theta);
   var y = r * sin(theta);
 ```
 
-Except in our example x and y are relative to the origins location. </br>
+</br>Except in our example x and y are relative to the origins location. </br>
 We have two triangles for different forces on the pendulum.</br>
 We seperate a vector into components along a random axis.</br>
 The second component (second triangle) is the force on the pendulum. </br>
@@ -43,9 +44,9 @@ The acceleration of the pendulum is effected by gravity, the radius and the sine
   }
   ```
 
-When we create the pendulum object we have a length of arm variable or r -> radius. </br>
+</br>When we create the pendulum object we have a length of arm variable or r -> radius. </br>
 Its slower when the arm is smaller and faster when the arm is larger. </br>
-.go() runs all the simulations.
+.go() runs all the simulations.</br>
 
 ```js
   p = new Pendulum(createVector(width / 2, 0), 175);
