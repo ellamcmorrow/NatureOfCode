@@ -1,6 +1,8 @@
 # 01_mover_experiment
 
-<br/> In this example we create a mover.<br/>
+<br/>
+Oscillation is the movement back and forth in a regular rhythm.
+In this example we create a mover.<br/>
 We pass multiple parameters into the mover object which we can then manipulate in the sketch class.
 These include the position, velocity,acceleration and mass. <br/>
 
